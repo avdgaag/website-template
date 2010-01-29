@@ -1,0 +1,101 @@
+/*
+ * LAYOUT.CSS
+ *
+ * This file handles the lay-out of the website.
+ *
+ * CREATOR
+ *
+ * Author:  Arjan van der Gaag
+ * E-mail:  info@agwebdesign.nl
+ * Date:    December 14, 2008-2010
+ *
+ * LICENSE
+ *
+ * The entire contents of this is copyright 2008-2010 Arjan van der Gaag. All rights
+ * reserved. Be inspired, but don't steal.
+ *
+ */
+
+/* @group General site lay-out */
+
+
+    html,
+    body {
+        background: #fff;
+        text-align: center;
+    }
+
+    #site {
+        position: relative;
+        width: 940px;
+        padding: 0 10px;
+        margin: 1.8em auto;
+        text-align: left;
+    }
+
+/* @end */
+
+/* @group General lay-out styles */
+
+    .print_only, .hidden, #skipping {
+        display: none;
+    }
+
+    #sanity_warnings {
+        position: fixed;
+        top: 100px;
+        left: 25%;
+        width: 50%;
+        color: #900;
+        background: #ffe1e1;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ffe1e1), to(#ffcccc));
+        font-size: 16px;
+        line-height: 24px;
+        border: 5px solid #900;
+        padding: 10px 10px 10px 30px;
+        text-align: left;
+        list-style: decimal outside;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -webkit-box-shadow: 3px 3px 5px #888;
+        text-shadow: 1px 1px 1px #fff;
+    }
+
+/* @end */
+
+/* @group Autoclearing */
+    #menu_list:after,
+    #content:after,
+    .columns:after,
+    .autoclear:after {
+        display: block;
+        height: 0px;
+        clear: both;
+        visibility: hidden;
+        content: ".";
+    }
+
+    #menu_list,
+    #content,
+    .columns,
+    .autoclear {
+        display: inline-block;
+    }
+
+    /* Hides from IE-mac \*/
+    * html #menu_list:after,
+    * html #content:after,
+    * html .columns:after,
+    * html .autoclear:after {
+        height: 1%;
+    }
+
+    #menu_list,
+    #content,
+    .columns,
+    .autoclear {
+        display: block;
+    }
+
+/* @end */

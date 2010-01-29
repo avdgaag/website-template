@@ -1,0 +1,91 @@
+/*
+ * PRINT.CSS
+ *
+ * This file combines and/or holds all the styling needed when printing
+ * pages on paper. It should be included in every HTML page in the project
+ * with the media type set to 'print'.
+ *
+ * CREATOR
+ *
+ * Author:  Arjan van der Gaag
+ * E-mail:  info@agwebdesign.nl
+ * Date:    December 28, 2008-2010
+ *
+ * LICENSE
+ *
+ * The entire contents of this is copyright 2008-2010 Arjan van der Gaag. All rights
+ * reserved. Be inspired, but don't steal.
+ *
+ */
+
+@import url(reset.css);
+@import url(typography.css);
+
+/* Hide unused lay-out elements */
+#secondary,
+#tertiary,
+#nav,
+form,
+#global_navigation {
+    display: none;
+}
+
+/* Main typography */
+body {
+    font: 12pt/16pt Cambria, Georgia, Times, Times New Roman, serif;
+    margin: 32pt;
+    color: #333;
+}
+
+#footer {
+    font-size: 10pt;
+    color: #999;
+    text-align: center;
+}
+
+#footer hr, #header hr {
+    margin: 16pt 0;
+}
+
+/* Properly format links for black/white output */
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Only give links in the page content any visual cue */
+#content a:link, #content a:visited {
+    border-bottom: 1px dotted #333;
+}
+
+/* Image framework */
+img.left {
+    float: left;
+    margin: 16pt;
+}
+img.right {
+    float: right;
+    margin: 16pt;
+}
+img.full {
+    margin: 16pt auto;
+    text-align: center;
+    display: block;
+}
+
+/* Adapt special styles to printing without backgrounds or colors */
+div.highlight {
+    border: 2px solid #999;
+    background: #f6f6f6;
+}
+
+div.meta {
+    color: #999;
+    background: none;
+}
+
+pre {
+    background: none;
+    color: #666;
+    border: 2px dotted #ccc;
+}

@@ -1,0 +1,43 @@
+/*
+ * TABLES.CSS
+ *
+ * Styles all tables in the website.
+ *
+ * CREATOR
+ *
+ * Author:  Arjan van der Gaag
+ * E-mail:  info@agwebdesign.nl
+ * Date:    2009-07-27
+ *
+ * LICENSE
+ *
+ * The entire contents of this is copyright 2009 Arjan van der Gaag.
+ * All rights reserved. Be inspired, but don't steal.
+ *
+ */
+
+/* @group Default table styling */
+
+    table {
+        margin: 1.5em 0;
+        border-collapse: collapse;
+        border: 1px solid #aaa;
+    }
+
+    caption {
+        text-align: center;
+    }
+
+    th, td {
+        padding: 2px 5px;
+    }
+
+    thead th {
+        border-bottom: 1px solid #aaa;
+    }
+
+    tfoot th {
+        border-top: 1px solid #aaa;
+    }
+
+/* @end */

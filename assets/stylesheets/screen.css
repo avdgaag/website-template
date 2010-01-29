@@ -1,0 +1,31 @@
+/*
+ * SCREEN.CSS
+ *
+ * This file combines all the styling needed to render the website on a screen
+ * or a projector. It should be included in every HTML page in the project.
+ *
+ * CREATOR
+ *
+ * Author:  Arjan van der Gaag
+ * E-mail:  info@agwebdesign.nl
+ * Date:    December 28, 2008-2010
+ *
+ * LICENSE
+ *
+ * The entire contents of this is copyright 2008-2010 Arjan van der Gaag. All rights
+ * reserved. Be inspired, but don't steal.
+ *
+ */
+@import url(reset.css);
+@import url(layout.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(nav.css);
+@import url(global_navigation.css);
+@import url(photos.css);
+@import url(grid.css);
+@import url(typography.css);
+@import url(forms.css);
+@import url(tabs.css);
+@import url(modules.css);
+@import url(tables.css);

@@ -1,0 +1,58 @@
+/*
+ * GLOBAL_NAVIGATION.CSS
+ *
+ * This file handles the global navigation in the page header.
+ *
+ * CREATOR
+ *
+ * Author:  Arjan van der Gaag
+ * E-mail:  info@agwebdesign.nl
+ * Date:    April 22, 2009
+ *
+ * LICENSE
+ *
+ * The entire contents of this is copyright 2008-2010 Arjan van der Gaag. All rights
+ * reserved. Be inspired, but don't steal.
+ *
+ */
+
+#global_navigation {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.2em;
+    line-height: 2.5em;
+    color: #999;
+}
+
+#global_navigation ul {
+    float: right;
+}
+
+#global_navigation li {
+    float: left;
+}
+
+#global_navigation li:after {
+    content: "|";
+    padding: 0 .5em;
+}
+
+#global_navigation li:last-child:after {
+    content: "";
+    padding: 0;
+}
+
+#global_navigation a:link,
+#global_navigation a:visited {
+    color: #999;
+}
+
+#global_navigation a:hover {
+    color: #444;
+}
+
+#global_navigation a:focus,
+#global_navigation a:active {
+    color: #000;
+}

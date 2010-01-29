@@ -1,0 +1,57 @@
+/*
+ * PHOTOS.CSS
+ *
+ * This file handles photos on the site; it aligns them left, right or center
+ * and handles any captions.
+ *
+ * CREATOR
+ *
+ * Author:  Arjan van der Gaag
+ * E-mail:  info@agwebdesign.nl
+ * Date:    April 22, 2009
+ *
+ * LICENSE
+ *
+ * The entire contents of this is copyright 2008-2010 Arjan van der Gaag. All rights
+ * reserved. Be inspired, but don't steal.
+ *
+ */
+
+div.photo.left, img.left {
+    float: left;
+    margin: 1.5em 1.5em 1.5em 0;
+}
+
+div.photo.right, img.right {
+    float: right;
+    margin: 1.5em 0 1.5em 1.5em;
+}
+
+div.photo.full, img.full {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 1.5em auto;
+}
+
+img.bordered {
+    border: 1px solid #111;
+}
+
+div.photo p {
+    /*
+     * photo caption
+     */
+    margin: 0;
+    font-size: .8571em;
+    color: #999;
+}
+
+#content img[alt] {
+    /*
+     * alt text when pictures are not available
+     */
+    background: #eee;
+    font-size: .916667em;
+    color: #999;
+}
