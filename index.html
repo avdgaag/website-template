@@ -1,464 +1,346 @@
 <!DOCTYPE html>
-<html lang="nl">
-    <head profile="http://gmpg.org/xfn/1">
+<!--[if lt IE 7 ]> <html lang="nl" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="nl" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="nl" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="nl" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="nl"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
         <title>Page title</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="copyright" content="">
         <meta name="author" content="">
 
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Language" content="nl-NL">
         <meta name="robots" content="index, follow">
-        <meta name="MSSmartTagsPreventParsing" content="true">
-        <meta http-equiv="imagetoolbar" content="false">
 
-        <link rel="stylesheet" href="assets/stylesheets/screen.css" media="screen, projection">
-        <link rel="stylesheet" href="assets/stylesheets/print.css" media="print">
-        <!--[if lte IE 7]>
-            <link rel="stylesheet" href="assets/stylesheets/ie7.css" media="screen, projection">
-        <![endif]-->
-        <!--[if lt IE 7]>
-            <link rel="stylesheet" href="assets/stylesheets/ie6.css" media="screen, projection">
-        <![endif]-->
-
-        <link href="." rel="start" title="Home">
+        <link rel="stylesheet" href="assets/stylesheets/styles.css">
         <link href="assets/images/favicon.png" rel="shortcut icon">
+
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+                g.async = true;
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s);
+            })(document, 'script');
+        </script>
     </head>
-    <body class="menu_home">
+    <body class="menu_a">
 
-        <div id="site">
+        <div id="page">
 
-            <div id="header"><div class="gutter">
+            <div id="header">
 
-                <div id="branding">
-                    <div id="title"><a href="." title="Terug naar de voorpagina" rel="home" accesskey="h"><img src="assets/images/logo.png" width="165" height="34" alt="UNTITLED PROJECT"></a></div>
-                </div>
-
-                <div id="global_navigation">
-                    <!-- Skip links -->
-                    <ul id="skipping">
-                        <li><a href="#main" title="Spring direct naar de hoofdinformatie">Naar inhoud</a></li>
-                        <li><a href="#aside" title="Spring direct naar de extra informatie">Naar extra</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="service/faq" title="" rel="section">Veelgestelde vragen</a></li>
-                        <li><a href="service/contact" title="" rel="section">Contact</a></li>
-                    </ul>
+                <div id="title">
+                    <a href="." title="Back to the front page" rel="home" accesskey="h"><img src="assets/images/logo.png" width="200" height="50" alt="UNTITLED PROJECT"></a>
                 </div>
 
                 <div id="nav">
-                    <ul id="menu_list">
-                        <li id="menu_home"><a href="." title="Terug naar de voorpagina" rel="section" accesskey="h">Home</a></li>
-                        <li id="menu_producten">
-                            <a href="producten" title="Blader door ons productassortiment" rel="section" accesskey="1">Producten</a>
-                            <ul>
-                                <li><a href="producten/groep1" title="Blader door productgroep 1" rel="section">Productgroep 1</a></li>
-                                <li><a href="producten/groep2" title="Blader door productgroep 2" rel="section">Productgroep 2</a></li>
-                                <li><a href="producten/groep3" title="Blader door productgroep 3" rel="section">Productgroep 3</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu_faq">
-                            <a href="faq" title="Vind antwoord op veelvoorkomende vragen" rel="section" accesskey="2">Veelgestelde vragen</a>
-                            <ul>
-                                <li><a href="faq/vraag1" title="Direct naar vraag 1" rel="section">Vraag 1</a></li>
-                                <li><a href="faq/vraag2" title="Direct naar vraag 2" rel="section">Vraag 2</a></li>
-                                <li><a href="faq/vraag3" title="Direct naar vraag 3" rel="section">Vraag 3</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu_contact"><a href="contact" title="Neem contact met ons op voor informatie of ondersteuning" rel="section" accesskey="3">Contact</a></li>
+                    <ul>
+                        <li id="menu_a"><a href="index.html" title="" rel="start">Home</a></li>
+                        <li id="menu_b"><a href="section1/index.html" title="" rel="section">Section 1</a></li>
+                        <li id="menu_b"><a href="section2/index.html" title="" rel="section">Section 2</a></li>
+                        <li id="menu_b"><a href="section3/index.html" title="" rel="section">Section 3</a></li>
                     </ul>
                 </div>
 
                 <hr>
 
-            </div></div><!-- /header -->
+            </div><!-- /header -->
 
-            <div id="content"><div class="gutter">
+            <div id="content">
 
-                <div id="main" class="column span8 prepend4">
+                <!-- demo content lovingly lifted from the azbuka project http://code.google.com/p/azbuka/ and the bluetrip project http://bluetrip.org/ -->
 
-                    <h1>Styles demo</h1>
+                <h1>Title 01 Heading</h1>
 
-                    <p>This default project defines various styles. Use the
-                    following tabs to review them and develop your own.</p>
+                <hr />
 
-                    <ul>
-                        <li><a href="#tab-headers">Headers</a></li>
-                        <li><a href="#tab-content">Content</a></li>
-                        <li><a href="#tab-lists">Lists</a></li>
-                        <li><a href="#tab-forms">Forms</a></li>
-                        <li><a href="#tab-images">Images</a></li>
-                        <li><a href="#tab-other">Other</a></li>
-                    </ul>
+                <h3>Level 03 Heading</h3>
 
-                    <div id="tab-headers">
+                <p>Lorem ipsum <em>emphasised text</em> dolor sit amet, <strong>strong text</strong> consectetur adipisicing elit, <abbr title="">abbreviated text</abbr> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <q>quoted text</q> enim ad minim veniam, quis nostrud exercitation <a href="/">link text</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <ins>inserted text</ins> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <code>code text</code> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                        <p class="leader">Leading into paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <a href="index.html">incididunt ut labore</a> et dolore magna aliqua. </p>
+                <p>Suspendisse rhoncus, est ac sollicitudin viverra, leo orci sagittis massa, sed condimentum <acronym title="">acronym text</acronym> est tortor a lectus. Curabitur porta feugiat ullamcorper. Integer lacinia mi id odio faucibus eget tincidunt nisl iaculis. Nam adipiscing hendrerit turpis, et porttitor felis sollicitudin et. Donec dictum massa ac neque accumsan tempor. Cras aliquam, ipsum sit amet laoreet hendrerit, purus <del>deleted text</del> sapien convallis dui, et porta leo ipsum ac nunc. Nullam ornare porta dui ac semper. Cras aliquam laoreet hendrerit. Quisque vulputate dolor eget mi porta vel porta nisl pretium. Vivamus non leo magna, quis imperdiet risus. Morbi tempor risus placerat tellus imperdiet fringilla.</p>
 
-                        <h1>Heading 1</h1>
+                <blockquote>
+                    <p>I am not one who was born in the possession of knowledge; I am one who is fond of antiquity, and earnest in seeking it there.</p>
+                </blockquote>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p><cite><a href="/">Confucius, The Confucian Analects</a></cite>,  (551 BC - 479 BC)</p>
 
-                        <h2>Heading 2</h2>
+                <h3>Level 03 Heading</h3>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p>Extended paragraph. <a href="">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                        <h3>Heading 3</h3>
+                <ol>
+                    <li>Unus</li>
+                    <li>Duo</li>
+                    <li>Tres</li>
+                    <li>Quattuor</li>
+                </ol>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                        <h4>Heading 4</h4>
+                <h3>Header 3</h3>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-                        <h5>Heading 5</h5>
+                <h4>Unordered lists</h4>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipisicing elit</li>
+                    <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li>Ut enim ad minim veniam</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <pre><code>body { font:0.8125em/1.618 Arial, sans-serif;
+                    background-color:#fff;
+                    color:#111;
+                }</code></pre>
 
-                        <h6>Heading 6</h6>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
+                <h4>Header 4</h4>
 
-                    <div id="tab-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-                        <h2>Links</h2>
+                <dl>
+                    <dt>Definition list</dt>
+                    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+                    <dt>Lorem ipsum dolor sit amet</dt>
+                    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
 
-                        <p>This paragraph demonstrates links. Lorem <a href="http://some-site.com/" rel="external">ipsum dolor sit amet</a>, consectetur <a href="file.doc">adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="file.pdf">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <a href="file.mp3">reprehenderit in voluptate</a> velit esse cillum dolore eu fugiat nulla pariatur. <a href="file.mov">Excepteur sint occaecat</a> cupidatat non proident, sunt in culpa qui officia <a href="." class="more">deserunt mollit</a> anim id est laborum.</p>
+                </dl>
 
-                        <h2>Quotes</h2>
-
-                        <p>Blockquote:</p>
-
-                        <blockquote cite="/">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </blockquote>
-
-                        <p>This is an inline quote: <q>consectetur adipisicing elit</q>. sed do eiusmod tempor incididunt ut labore.</p>
-
-                        <blockquote class="pull-quote">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                        </blockquote>
-
-                        <h2>Inline styles</h2>
-
-                        <p><strong>Strong text</strong> dolor <em>emphasized text</em>, consectetur adipisicing elit, <small>small text</small> tempor incididunt <del>deleted text</del> dolore <ins>inserted text</ins>. Ut <code>code text</code> veniam, <kbd>kbd text</kbd> exercitation <var>var text</var> laboris nisi <dfn title="Description">definition term</dfn> ex ea <abbr>abbreviation</abbr> and <acronym title="Description">acronym</acronym>.</p>
-
-                        <h2>Block level styles</h2>
-
-                        <p>Highlighted text style:</p>
-
-                        <div class="highlight">
-                           This is some highlighted text.
-                        </div>
-
-                        <p>Additional information text style:</p>
-
-                        <div class="meta">
-                           This is some dimmed out text.
-                        </div>
-
-                        <p>Code blocks:</p>
-
-                        <pre><code>function hello($arg) {
-  alert('hello, world!');
-}</code></pre>
-                    </div>
-
-                    <div id="tab-lists">
-                        <p>Unordered list:</p>
-
-                        <ul>
-                            <li>List item 1</li>
-                            <li>List item 2</li>
-                            <li>List item 3</li>
-                        </ul>
-
-                        <p>Ordered list:</p>
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h4>Ordered list</h4>
+                <ol>
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item
                         <ol>
-                            <li>List item 1</li>
-                            <li>List item 2</li>
-                            <li>List item 3</li>
+                            <li>List item level 2</li>
+                            <li>List item level 2
+                                <ol>
+                                    <li>List item level 3</li>
+                                    <li>List item level 3</li>
+                                </ol>
+                            </li>
                         </ol>
-
-                        <p>Definition list:</p>
-
-                        <dl>
-                            <dt>Term 1</dt>
-                            <dd>Definition 1</dd>
-                            <dt>Term 2</dt>
-                            <dd>Definition 2</dd>
-                            <dt>Term 3</dt>
-                            <dd>Definition 3</dd>
-                        </dl>
-
-                        <p>Nested unordered list:</p>
-
+                    </li>
+                </ol>
+                <h4>Unordered list</h4>
+                <ul>
+                    <li>List item 01</li>
+                    <li>List item 02</li>
+                    <li>List item 03
                         <ul>
-                            <li>List item 1
+                            <li>List item level 2</li>
+                            <li>List item level 2
                                 <ul>
-                                    <li>List item 1</li>
-                                    <li>List item 2</li>
+                                    <li>List item level 3</li>
+                                    <li>List item level 3</li>
                                 </ul>
                             </li>
-                            <li>List item 2
-                                <ul>
-                                    <li>List item 1</li>
-                                </ul>
-                            </li>
-                            <li>List item 3</li>
+
                         </ul>
+                    </li>
+                </ul>
 
-                        <p>Nested ordered list:</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-                        <ol>
-                            <li>List item 1
-                                <ol>
-                                    <li>List item 1</li>
-                                    <li>List item 2</li>
-                                </ol>
-                            </li>
-                            <li>List item 2
-                                <ol>
-                                    <li>List item 1</li>
-                                </ol>
-                            </li>
-                            <li>List item 3</li>
-                        </ol>
-                    </div>
 
-                    <div id="tab-forms">
-                        <form method="post" action="#">
+                <h4>Tables</h4>
+                <table summary="Jimi Hendrix albums">
+                    <caption>Jimi Hendrix - albums</caption>
+                    <thead>
+                        <tr>
+                            <th>Album</th>
+                            <th>Year</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td>Album</td>
+                            <td>Year</td>
+                            <td>Price</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Are You Experienced </td>
+                            <td>1967</td>
+                            <td>$10.00</td>
+                        </tr>
+                        <tr>
+                            <td>Axis: Bold as Love</td>
+                            <td>1967</td>
+                            <td>$12.00</td>
+                        </tr>
+                        <tr>
+                            <td>Electric Ladyland</td>
+                            <td>1968</td>
+                            <td>$10.00</td>
+                        </tr>
+                        <tr>
+                            <td>Band of Gypsys</td>
+                            <td>1970</td>
+                            <td>$12.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    I am <a href="http://devkick.com/lab/tripoli/sample.php?abc123">the a tag</a> example<br>
 
-                            <p>Error messages:</p>
+                    I am <abbr title="test">the abbr tag</abbr> example<br>
 
-                            <div id="flash" class="warning">Error message</div>
+                    I am <acronym>the acronym tag</acronym> example<br>
+                    I am <b>the b tag</b> example<br>
+                    I am <big>the big tag</big> example<br>
 
-                            <div id="flash" class="confirm">Confirmation message</div>
+                    I am <cite>the cite tag</cite> example<br>
 
-                            <p>Form fields:</p>
+                    I am <code>the code tag</code> example<br>
+                    I am <del>the del tag</del> example<br>
+                    I am <dfn>the dfn tag</dfn> example<br>
 
-                            <fieldset>
-                                <legend><span>Fieldset 1</span></legend>
-                                <ol>
-                                    <li>
-                                        <label for="field1">Text field</label>
-                                        <input type="text" name="field1" value="" id="field1">
-                                    </li>
-                                    <li>
-                                        <label for="field2">Password field</label>
-                                        <input type="password" name="field2" value="" id="field2">
-                                    </li>
-                                    <li>
-                                        <label for="field3">Text area</label>
-                                        <textarea rows="6" cols="30" name="field3" id="field3"></textarea>
-                                    </li>
-                                </ol>
-                            </fieldset>
+                    I am <em>the em tag</em> example<br>
 
-                            <fieldset>
-                                <legend><span>Fieldset 2</span></legend>
-                                <ol>
-                                    <li>
-                                        <fieldset>
-                                            <legend>Radio buttons</legend>
-                                            <ol>
-                                                <li class="option"><label><input type="radio" name="option1" value="1" id="option1"> Option 1</label></li>
-                                                <li class="option"><label><input type="radio" name="option2" value="2" id="option2"> Option 2</label></li>
-                                                <li class="option"><label><input type="radio" name="option3" value="3" id="option3"> Option 3</label></li>
-                                            </ol>
-                                        </fieldset>
-                                    </li>
-                                    <li class="option"><label><input type="checkbox" name="checkbox" value="1" id="checkbox"> Checkbox</label></li>
-                                    <li>
-                                        <label for="select_box">Select box</label>
-                                        <select name="select_box" id="select_box">
-                                            <option>Option 1</option>
-                                            <option>Option 2</option>
-                                            <option>Option 3</option>
-                                            <option>Option 4</option>
-                                        </select>
-                                    </li>
-                                    <li>
-                                        <span class="label">Faux label</span>
-                                        <span class="value">
-                                            <select name="select_box2" id="select_box2">
-                                                <option>Option 1</option>
-                                                <option>Option 2</option>
-                                                <option>Option 3</option>
-                                                <option>Option 4</option>
-                                            </select>
-                                            <select name="select_box3" id="select_box3">
-                                                <option>Option 1</option>
-                                                <option>Option 2</option>
-                                                <option>Option 3</option>
-                                                <option>Option 4</option>
-                                            </select>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="label">Faux label</span>
-                                        <span class="value">Faux value</span>
-                                    </li>
-                                </ol>
-                            </fieldset>
+                    I am <font face="verdana">the font tag</font> example<br>
+                    I am <i>the i tag</i> example<br>
+                    I am <ins>the ins tag</ins> example<br>
 
-                            <fieldset class="controls">
-                                <legend>Controls</legend>
-                                <button type="submit">Versturen</button> of <a href="#cancel" title="">annuleren</a>
-                            </fieldset>
-                        </form>
-                    </div>
+                    I am <kbd>the kbd tag</kbd> example<br>
 
-                    <div id="tab-images">
-                        <h3>Left-aligned image</h3>
-                        <img src="assets/images/logo.png" width="165" height="34" alt="Omschrijving van de afbeelding" class="left">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    I am <q>the q tag <q>inside</q> a q tag</q> example<br>
+                    I am <s>the s tag</s> example<br>
+                    I am <samp>the samp tag</samp> example<br>
 
-                        <h3>Right-aligned image</h3>
-                        <div class="photo right">
-                            <img src="assets/images/logo.png" width="165" height="34" alt="Omschrijving van de afbeelding">
-                            <p>Dit is een onderschrift.</p>
-                        </div>
+                    I am <small>the small tag</small> example<br>
+                    I am <span>the span tag</span> example<br>
+                    I am <strike>the strike tag</strike> example<br>
+                    I am <strong>the strong tag</strong> example<br>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    I am <sub>the sub tag</sub> example<br>
+                    I am <sup>the sup tag</sup> example<br>
+                    I am <tt>the tt tag</tt> example<br>
+                    I am <var>the var tag</var> example<br>
 
-                        <h3>Un-aligned image</h3>
-                        <img src="assets/images/logo.png" width="165" height="34" alt="Omschrijving van de afbeelding" class="full bordered">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
+                    I am <u>the u tag</u> example
+                </p>
 
-                    <div id="tab-other">
+                <p>This is a &lt;p&gt; with some <code>code</code> inside.</p>
 
-                        <h2>Column lay-out</h2>
+                <h3>What is Lorem Ipsum?</h3>
+                <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-                        <div class="column span4">
-                            <p>This demonstrates the use of grids. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        <div class="column span4 last">
-                            <p>This demonstrates the use of grids. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
+                <p><strong>This</strong> Lorem Ipsum HTML example is created from the parts of Placeholder Markup with Lorem Ipsum - Jon Tan, Emastic CSS Framework, Tripoli CSS Framework and Baseline CSS Framework .</p>
 
-                        <h2>Footnotes</h2>
+                <address>Address: somewhere, World</address>
 
-                        <div class="footnotes">
-                            <hr>
-                            <h3>Footnotes</h3>
-                            <ol>
-                                <li>Gibbon, E. (1755) <cite>The Rise and Fall of the Roman Empire</cite>. 200&ndash;205.</li>
-                                <li>Fukuyama, F. (1991) <cite>The End of History</cite>. 93&ndash;94.</li>
-                            </ol>
-                        </div>
+                <p>
+                    <a href="#">Link</a><br>
+                    <strong>&lt;strong&gt;</strong><br>
+                    <del>&lt;del&gt; deleted</del><br>
+                    <dfn>&lt;dfn&gt; dfn</dfn><br>
+                    <em>&lt;em&gt; emphasis</em>
+                </p>
+                <pre>
+                    <code>&lt;html&gt;</code>
+                    <code>&lt;head&gt;</code>
+                    <code>&lt;/head&gt;</code>
+                    <code>&lt;body&gt;</code>
+                    <code>&lt;div class = "main"&gt; &lt;div&gt;</code>
+                    <code>&lt;/body&gt;</code>
+                    <code>&lt;/html&gt; </code>
+                </pre>
 
-                        <h2>Tables</h2>
-
-                        <table>
-                            <caption><strong>Tabel 1</strong>: Voorbeeldtabel</caption>
-                            <thead>
-                                <tr>
-                                    <th scope="row">Categorie</th>
-                                    <th>A</th>
-                                    <th>B</th>
-                                    <th>C</th>
-                                </tr>
-                            </thead>
-                            <tfoot>
-                                <tr>
-                                    <th scope="row">Totaal</th>
-                                    <th>13</th>
-                                    <th>65</th>
-                                    <th>43</th>
-                                </tr>
-                            </tfoot>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>40%</td>
-                                    <td>23%</td>
-                                    <td>19%</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>85%</td>
-                                    <td>79%</td>
-                                    <td>12%</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>4%</td>
-                                    <td>9%</td>
-                                    <td>34%</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                </div><!-- /main -->
-
-                <div id="secondary" class="column span3 pull12">
-                    <h2>Secondary</h2>
-
-                    <div class="module">
-                        <div class="header">
-                            <h3>Default module</h3>
-                        </div>
-                        <div class="body">
-                            <p>content goes here.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#more">More&hellip;</a>
-                        </div>
-                    </div>
-                </div><!-- /secondary -->
-
-                <div id="tertiary" class="column prepend1 span3 last">
-                    <h2>Tertiary</h2>
-
-                    <h3>Sidebar heading</h3>
-                    <p>Lorem ipsum dolor sit amet, <a href="/">links</a>, sed do eiusmod <strong>strong</strong> and <em>emphasis</em> magna aliqua.</p>
-
-                    <h3>Sidebar Lists</h3>
-                    <ul>
-                        <li>List item 1</li>
-                        <li>List item 2</li>
-                        <li>List item 3</li>
-                    </ul>
-
-                    <div class="module">
-                        <div class="header">
-                            <h3>Default module</h3>
-                        </div>
-                        <div class="body">
-                            <p>content goes here.</p>
-                        </div>
-                        <div class="footer">
-                            <a href="#more">More&hellip;</a>
-                        </div>
-                    </div>
-
-                </div><!-- /secondary -->
-
-            </div></div><!-- /content -->
-
-            <div id="footer"><div class="gutter">
+                <tt>&lt;tt&gt;
+                    Pellentesque tempor, dui ut ultrices viverra, neque urna blandit nisi, id accumsan dolor est vitae risus.
+                </tt>
 
                 <hr>
 
-                <div id="colofon">
 
-                    <p>Lees onze
-                    <a href="service/juridische-kennisgeving.html" title="" rel="nofollow">juridische kennisgeving</a> en
-                    <a href="service/privacyverklaring.html" title="" rel="nofollow">privacyverklaring</a>. Zie ook de
-                    <a href="service/sitemap.html" title="Een overzicht van alle pagina's in onze website" rel="index">sitemap</a>.</p>
 
-                </div><!-- /colofon -->
+                <!-- this following markup from http://bluetrip.org/ -->
+                <dl>
+                    <dt>Description list title 01</dt>
 
-            </div></div><!-- /footer -->
+                    <dd>Description list description 01</dd>
+                    <dt>Description list title 02</dt>
+                    <dd>Description list description 02</dd>
+                    <dd>Description list description 03</dd>
 
-        </div><!-- /site -->
+                </dl>
+                <table>
+                    <caption>Table Caption</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Table head th</th>
+                            <td>Table head td</td>
+                        </tr>
+
+                    </thead>
+                    <tfoot>
+                        <tr>
+
+                            <th>Table foot th</th>
+                            <td>Table foot td</td>
+                        </tr>
+                    </tfoot>
+
+                    <tbody>
+                        <tr>
+                            <th>Table body th</th>
+
+                            <td>Table body td</td>
+                        </tr>
+                        <tr>
+                            <td>Table body td</td>
+
+                            <td>Table body td</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+                <hr>
+
+                <form action="#">
+                    <fieldset>
+                        <legend>Form legend</legend>
+
+                        <div><label for="f1">Text input:</label><input type="text" id="f1" value="input text" /></div>
+                        <div><label for="pw">Password input:</label><input type="password" id="pw" value="password" /></div>
+                        <div><label for="f2">Radio input:</label><input type="radio" id="f2" /></div>
+
+                        <div><label for="f3">Checkbox input:</label><input type="checkbox" id="f3" /></div>
+                        <div><label for="f4">Select field:</label><select id="f4"><option>Option 01</option><option>Option 02</option></select></div>
+
+                        <div><label for="f5">Textarea:</label><textarea id="f5" cols="30" rows="5" >Textarea text</textarea></div>
+                        <div><label for="f6">Input Button:</label> <input type="button" id="f6" value="button text" /></div>
+
+                    </fieldset>
+
+                </form>
+
+            </div><!-- /content -->
+
+            <div id="footer">
+
+                <p>&copy; copyright 2010</p>
+
+            </div><!-- /footer -->
+
+        </div><!-- /page -->
 
     </body>
 </html>
