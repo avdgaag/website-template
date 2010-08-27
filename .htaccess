@@ -74,7 +74,7 @@ FileETag None
 <FilesMatch "^.ht">
   Order Deny,Allow
   Deny from all
-</Files>
+</FilesMatch>
 
 # ============================================================================
 # URLs
